@@ -1,0 +1,15 @@
+<datasource>
+    <name>HelloDatasource</name>
+    <description>Student Database Connection</description>
+    <jndiConfig useDataSourceFactory="false">
+        <name>jdbc/HelloDB</name>
+    </jndiConfig>
+    <definition type="RDBMS">
+        <configuration>
+            <driverClassName>com.mysql.jdbc.Driver</driverClassName>
+            <url>jdbc:mysql://localhost:3306/hello_database_name</url>
+            <username>hello_database_username</username>
+            <password>hello_database_password</password>
+        </configuration>
+    </definition>
+</datasource>
